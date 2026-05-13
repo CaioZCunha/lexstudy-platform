@@ -99,8 +99,10 @@ Organização do fluxo Git:
 Projeto desenvolvido para a disciplina de Programação Frontend e DevOps.
 
 - Caio Zanfollim Cunha
-- João
-- (Adicionar integrantes restantes)
+- João Pedro
+- Eduardo
+- Pedro
+- Canuto
 
 ---
 
@@ -168,5 +170,3 @@ Deploy automatizado realizado utilizando:
 
 Projeto acadêmico desenvolvido exclusivamente para fins educacionais.
 
-```
-```
