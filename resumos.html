@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumos | LexStudy</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/resumos.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand logo-font text-dark" href="index.html">
+                <span class="fs-4">⚖️</span> Lex<strong>Study</strong>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menuNavegacao">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link" href="materias.html">Materias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resumos.html">Resumos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quiz.html">Quizzes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="flashcards.html">Flashcards</a></li>
+                    <li class="nav-item">
+                        <a href="#Sobre" class="btn btn-navy px-4 rounded-3">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="flex-grow-1">
+
+        <!-- HERO -->
+        <section class="hero-section text-white text-center py-5">
+            <div class="container py-4">
+                <h1 class="display-5 fw-bold mb-3 logo-font">Resumos Jurídicos</h1>
+                <p class="lead mb-0 text-light mx-auto" style="max-width: 700px;">
+                    Conteúdo teórico direto ao ponto para cada matéria.
+                </p>
+            </div>
+        </section>
+
+        <div class="container py-5">
+
+            <!-- DIREITO CIVIL -->
+            <div id="civil" class="mb-5">
+                <h2 class="logo-font text-navy mb-4">🏛️ Direito Civil</h2>
+                <div class="accordion" id="accCivil">
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1">
+                                Pessoa Natural e Capacidade Civil
+                            </button>
+                        </h2>
+                        <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#accCivil">
+                            <div class="accordion-body">
+                                <p><strong>Pessoa natural</strong> é todo ser humano com vida. A personalidade civil começa com o nascimento com vida (art. 2º do CC/2002), mas a lei coloca a salvo os direitos do nascituro desde a concepção.</p>
+                                <p><strong>Capacidade de direito</strong> é a aptidão genérica para ser titular de direitos e obrigações — toda pessoa a tem ao nascer.</p>
+                                <p><strong>Capacidade de fato</strong> é a aptidão para praticar atos da vida civil pessoalmente. Não a possui quem é considerado incapaz pela lei:</p>
+                                <ul>
+                                    <li><strong>Absolutamente incapazes (art. 3º CC):</strong> apenas os menores de 16 anos. Seus atos são <em>nulos</em>.</li>
+                                    <li><strong>Relativamente incapazes (art. 4º CC):</strong> maiores de 16 e menores de 18 anos; ébrios habituais; viciados em tóxicos; pródigos. Seus atos são <em>anuláveis</em>.</li>
+                                </ul>
+                                <div class="dica">
+                                    💡 <strong>Atenção:</strong> Com o Estatuto da Pessoa com Deficiência (Lei 13.146/2015), a deficiência em si <strong>não</strong> é mais causa de incapacidade civil.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2">
+                                Responsabilidade Civil
+                            </button>
+                        </h2>
+                        <div id="c2" class="accordion-collapse collapse" data-bs-parent="#accCivil">
+                            <div class="accordion-body">
+                                <p>Responsabilidade civil é a obrigação de reparar danos causados a outrem.</p>
+                                <p><strong>Responsabilidade Subjetiva (art. 186 CC):</strong> exige 4 elementos cumulativos:</p>
+                                <ol>
+                                    <li>Conduta (ação ou omissão);</li>
+                                    <li>Culpa ou dolo do agente;</li>
+                                    <li>Dano (material, moral ou estético);</li>
+                                    <li>Nexo de causalidade entre a conduta e o dano.</li>
+                                </ol>
+                                <p><strong>Responsabilidade Objetiva (art. 927, parágrafo único CC):</strong> prescinde de culpa. Basta conduta + dano + nexo causal. Aplica-se quando a atividade normalmente implica risco para terceiros.</p>
+                                <div class="dica">
+                                    ⚖️ <strong>Diferença-chave:</strong> Na subjetiva, a vítima precisa provar a culpa. Na objetiva, o réu só se exime provando ausência de nexo causal (caso fortuito, força maior ou culpa exclusiva da vítima).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c3">
+                                Negócio Jurídico e Vícios do Consentimento
+                            </button>
+                        </h2>
+                        <div id="c3" class="accordion-collapse collapse" data-bs-parent="#accCivil">
+                            <div class="accordion-body">
+                                <p><strong>Negócio jurídico</strong> é toda manifestação de vontade destinada a produzir efeitos jurídicos. Para ser válido precisa de: agente capaz, objeto lícito/possível e forma prescrita ou não defesa em lei (art. 104 CC).</p>
+                                <p><strong>Vícios do consentimento</strong> tornam o negócio <em>anulável</em>:</p>
+                                <ul>
+                                    <li><strong>Erro</strong> — falsa noção da realidade pelo declarante;</li>
+                                    <li><strong>Dolo</strong> — induzimento malicioso ao erro pela outra parte;</li>
+                                    <li><strong>Coação</strong> — ameaça grave que vicia a vontade;</li>
+                                    <li><strong>Estado de perigo</strong> — obrigação excessiva assumida para salvar alguém de dano iminente;</li>
+                                    <li><strong>Lesão</strong> — prestação manifestamente desproporcional por necessidade ou inexperiência.</li>
+                                </ul>
+                                <div class="dica">
+                                    📌 <strong>Dica de prova:</strong> Vícios do consentimento → negócio <strong>anulável</strong> (prazo de 4 anos). Simulação → negócio <strong>nulo</strong>.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c4">
+                                Contratos — Princípios Fundamentais
+                            </button>
+                        </h2>
+                        <div id="c4" class="accordion-collapse collapse" data-bs-parent="#accCivil">
+                            <div class="accordion-body">
+                                <p>O direito contratual é regido por três princípios estruturantes:</p>
+                                <ul>
+                                    <li><strong>Autonomia privada:</strong> as partes são livres para contratar dentro dos limites legais;</li>
+                                    <li><strong>Boa-fé objetiva (art. 422 CC):</strong> comportamento leal em todas as fases — pré-contratual, contratual e pós-contratual;</li>
+                                    <li><strong>Função social do contrato (art. 421 CC):</strong> o contrato não pode prejudicar terceiros nem a coletividade.</li>
+                                </ul>
+                                <p><strong>Formação:</strong> proposta + aceitação = contrato. A proposta vincula o proponente (art. 427 CC), salvo exceções.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- DIREITO PENAL -->
+            <div id="penal" class="mb-5">
+                <h2 class="logo-font text-navy mb-4">🚨 Direito Penal</h2>
+                <div class="accordion" id="accPenal">
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#p1">
+                                Conceito Analítico de Crime
+                            </button>
+                        </h2>
+                        <div id="p1" class="accordion-collapse collapse show" data-bs-parent="#accPenal">
+                            <div class="accordion-body">
+                                <p>Para a doutrina majoritária (teoria tripartida), crime é o fato <strong>típico</strong>, <strong>ilícito</strong> e <strong>culpável</strong>.</p>
+                                <ul>
+                                    <li><strong>Fato típico:</strong> conduta + resultado + nexo causal + tipicidade;</li>
+                                    <li><strong>Ilicitude:</strong> contrariedade ao ordenamento. Excludentes: legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito (art. 23 CP);</li>
+                                    <li><strong>Culpabilidade:</strong> juízo de reprovação. Elementos: imputabilidade + potencial consciência da ilicitude + exigibilidade de conduta diversa.</li>
+                                </ul>
+                                <div class="dica">
+                                    📌 <strong>Teoria bipartida:</strong> parte minoritária entende que culpabilidade não é elemento do crime, mas pressuposto da pena. Para concurso, adote a tripartida salvo indicação contrária.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#p2">
+                                Dolo e Culpa
+                            </button>
+                        </h2>
+                        <div id="p2" class="accordion-collapse collapse" data-bs-parent="#accPenal">
+                            <div class="accordion-body">
+                                <p><strong>Dolo (art. 18, I CP):</strong> o agente quis o resultado ou assumiu o risco de produzi-lo.</p>
+                                <ul>
+                                    <li><strong>Dolo direto:</strong> o agente prevê e quer o resultado;</li>
+                                    <li><strong>Dolo eventual:</strong> o agente prevê o resultado como possível e assume o risco.</li>
+                                </ul>
+                                <p><strong>Culpa (art. 18, II CP):</strong> o agente não quis o resultado, mas agiu com:</p>
+                                <ul>
+                                    <li><strong>Imprudência</strong> — ação arriscada sem cautela;</li>
+                                    <li><strong>Negligência</strong> — omissão do cuidado necessário;</li>
+                                    <li><strong>Imperícia</strong> — falta de habilidade técnica profissional.</li>
+                                </ul>
+                                <div class="dica">
+                                    ⚠️ <strong>Regra do CP:</strong> o crime culposo só é punível quando expressamente previsto em lei (art. 18, parágrafo único CP).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#p3">
+                                Iter Criminis — Caminho do Crime
+                            </button>
+                        </h2>
+                        <div id="p3" class="accordion-collapse collapse" data-bs-parent="#accPenal">
+                            <div class="accordion-body">
+                                <p>As fases percorridas pelo agente até a consumação do crime doloso:</p>
+                                <ol>
+                                    <li><strong>Cogitação</strong> — plano mental interno. <em>Não punível.</em></li>
+                                    <li><strong>Preparação</strong> — atos exteriores para viabilizar o crime. <em>Em regra, não punível.</em></li>
+                                    <li><strong>Execução</strong> — início dos atos de realização do tipo. Aqui começa a tentativa.</li>
+                                    <li><strong>Consumação</strong> — realização completa do tipo penal.</li>
+                                </ol>
+                                <p><strong>Tentativa (art. 14, II CP):</strong> pena reduzida de 1/3 a 2/3. O agente iniciou a execução mas não consumou por circunstâncias alheias à sua vontade.</p>
+                                <div class="dica">
+                                    💡 <strong>Desistência voluntária e arrependimento eficaz (art. 15 CP):</strong> o agente abandona a execução ou impede o resultado voluntariamente. Responde apenas pelos atos já praticados.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#p4">
+                                Penas — Espécies e Dosimetria
+                            </button>
+                        </h2>
+                        <div id="p4" class="accordion-collapse collapse" data-bs-parent="#accPenal">
+                            <div class="accordion-body">
+                                <p>O CP prevê três espécies de pena (art. 32):</p>
+                                <ul>
+                                    <li><strong>Privativas de liberdade:</strong> reclusão, detenção e prisão simples;</li>
+                                    <li><strong>Restritivas de direitos:</strong> substituem penas privativas em crimes menos graves;</li>
+                                    <li><strong>Multa:</strong> calculada em dias-multa (mínimo 10, máximo 360).</li>
+                                </ul>
+                                <p><strong>Dosimetria — sistema trifásico (art. 68 CP):</strong></p>
+                                <ol>
+                                    <li>1ª fase: pena-base (circunstâncias judiciais — art. 59);</li>
+                                    <li>2ª fase: agravantes e atenuantes;</li>
+                                    <li>3ª fase: causas de aumento e diminuição.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- CONSTITUCIONAL -->
+            <div id="constitucional" class="mb-5">
+                <h2 class="logo-font text-navy mb-4">📜 Direito Constitucional</h2>
+                <div class="accordion" id="accConst">
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ct1">
+                                Princípios Fundamentais da CF/88
+                            </button>
+                        </h2>
+                        <div id="ct1" class="accordion-collapse collapse show" data-bs-parent="#accConst">
+                            <div class="accordion-body">
+                                <p><strong>Fundamentos da República (art. 1º CF):</strong> soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, e pluralismo político.</p>
+                                <p><strong>Objetivos fundamentais (art. 3º CF):</strong> construir uma sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza; promover o bem de todos sem discriminação.</p>
+                                <p><strong>Princípios das relações internacionais (art. 4º CF):</strong> independência nacional, prevalência dos direitos humanos, autodeterminação dos povos, não-intervenção, igualdade entre os Estados, solução pacífica dos conflitos.</p>
+                                <div class="dica">
+                                    🧠 <strong>Mnemônico — Fundamentos (art. 1º):</strong> <em>So.Ci.Di.Va.Plu</em> — <strong>So</strong>berania · <strong>Ci</strong>dadania · <strong>Di</strong>gnidade · <strong>Va</strong>lores sociais · <strong>Plu</strong>ralismo político.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ct2">
+                                Direitos Fundamentais — Teoria Geral
+                            </button>
+                        </h2>
+                        <div id="ct2" class="accordion-collapse collapse" data-bs-parent="#accConst">
+                            <div class="accordion-body">
+                                <p>Características dos direitos fundamentais:</p>
+                                <ul>
+                                    <li><strong>Universalidade:</strong> destinam-se a toda pessoa humana;</li>
+                                    <li><strong>Indivisibilidade:</strong> não podem ser fragmentados;</li>
+                                    <li><strong>Historicidade:</strong> surgem e se expandem com o tempo;</li>
+                                    <li><strong>Relatividade:</strong> não são absolutos — colidem e são ponderados;</li>
+                                    <li><strong>Inalienabilidade e imprescritibilidade:</strong> não se perdem pelo não exercício.</li>
+                                </ul>
+                                <p><strong>Gerações/dimensões:</strong> 1ª (liberdades civis — direitos negativos); 2ª (direitos sociais — prestações positivas); 3ª (fraternidade — meio ambiente, paz); 4ª (democracia direta, bioética).</p>
+                                <div class="dica">
+                                    ⚖️ <strong>Eficácia horizontal:</strong> os direitos fundamentais vinculam não só o Estado, mas também as relações entre particulares (teoria Drittwirkung).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ct3">
+                                Remédios Constitucionais
+                            </button>
+                        </h2>
+                        <div id="ct3" class="accordion-collapse collapse" data-bs-parent="#accConst">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><strong>Habeas corpus (art. 5º, LXVIII):</strong> protege o direito de locomoção contra violência ou coação ilegal;</li>
+                                    <li><strong>Mandado de segurança (art. 5º, LXIX):</strong> protege direito líquido e certo não amparado por HC ou HD contra ato de autoridade;</li>
+                                    <li><strong>Mandado de injunção (art. 5º, LXXI):</strong> supre a omissão legislativa que inviabiliza direito constitucional;</li>
+                                    <li><strong>Habeas data (art. 5º, LXXII):</strong> garante acesso a informações pessoais em registros públicos e retificação de dados;</li>
+                                    <li><strong>Ação popular (art. 5º, LXXIII):</strong> qualquer cidadão pode anular ato lesivo ao patrimônio público, à moralidade, ao meio ambiente e ao patrimônio histórico-cultural.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ct4">
+                                Organização dos Poderes
+                            </button>
+                        </h2>
+                        <div id="ct4" class="accordion-collapse collapse" data-bs-parent="#accConst">
+                            <div class="accordion-body">
+                                <p>O sistema constitucional adota a <strong>separação de poderes</strong> (art. 2º CF) com freios e contrapesos:</p>
+                                <ul>
+                                    <li><strong>Legislativo:</strong> legislar e fiscalizar — Congresso Nacional (Câmara + Senado);</li>
+                                    <li><strong>Executivo:</strong> administrar — Presidente da República e Ministros;</li>
+                                    <li><strong>Judiciário:</strong> julgar — STF, STJ, TST, TSE, STM, TRFs, TJs e juízos singulares.</li>
+                                </ul>
+                                <div class="dica">
+                                    📌 <strong>Funções atípicas:</strong> cada poder exerce funções típicas e atípicas. Ex.: o Senado julga o Presidente no impeachment (função jurisdicional exercida pelo Legislativo).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- TRABALHO -->
+            <div id="trabalho" class="mb-5">
+                <h2 class="logo-font text-navy mb-4">💼 Direito do Trabalho</h2>
+                <div class="accordion" id="accTrabalho">
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#t1">
+                                Relação de Emprego — Requisitos
+                            </button>
+                        </h2>
+                        <div id="t1" class="accordion-collapse collapse show" data-bs-parent="#accTrabalho">
+                            <div class="accordion-body">
+                                <p>Para configurar vínculo de emprego, são necessários 5 requisitos <strong>cumulativos</strong> (arts. 2º e 3º da CLT):</p>
+                                <ol>
+                                    <li><strong>Pessoa física</strong> — o empregado é sempre pessoa natural;</li>
+                                    <li><strong>Pessoalidade</strong> — o serviço é prestado <em>intuitu personae</em>;</li>
+                                    <li><strong>Não eventualidade</strong> — prestação contínua e habitual;</li>
+                                    <li><strong>Onerosidade</strong> — há remuneração pelo serviço;</li>
+                                    <li><strong>Subordinação jurídica</strong> — o empregado se submete às ordens do empregador.</li>
+                                </ol>
+                                <div class="dica">
+                                    ⚠️ <strong>Pejotização:</strong> a contratação como PJ não afasta o vínculo empregatício se os 5 requisitos estiverem presentes.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#t2">
+                                Jornada de Trabalho
+                            </button>
+                        </h2>
+                        <div id="t2" class="accordion-collapse collapse" data-bs-parent="#accTrabalho">
+                            <div class="accordion-body">
+                                <p><strong>Limites constitucionais (art. 7º, XIII e XIV CF):</strong></p>
+                                <ul>
+                                    <li>Jornada normal: <strong>8 horas diárias</strong> e <strong>44 horas semanais</strong>;</li>
+                                    <li>Turno ininterrupto de revezamento: <strong>6 horas</strong> (salvo negociação coletiva).</li>
+                                </ul>
+                                <p><strong>Horas extras:</strong> máximo de 2h além da jornada, com adicional mínimo de <strong>50%</strong> (CF, art. 7º, XVI).</p>
+                                <p><strong>Intervalos (art. 71 CLT):</strong></p>
+                                <ul>
+                                    <li>Jornada acima de 6h: intervalo mínimo de 1h;</li>
+                                    <li>Jornada entre 4h e 6h: intervalo de 15 minutos;</li>
+                                    <li>Jornada até 4h: sem intervalo obrigatório.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#t3">
+                                Rescisão do Contrato de Trabalho
+                            </button>
+                        </h2>
+                        <div id="t3" class="accordion-collapse collapse" data-bs-parent="#accTrabalho">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><strong>Demissão sem justa causa:</strong> aviso prévio + saldo de salário + férias + 13º proporcionais + multa de 40% do FGTS + seguro-desemprego;</li>
+                                    <li><strong>Justa causa:</strong> apenas saldo de salário e férias vencidas. Sem aviso prévio, multa do FGTS ou seguro-desemprego;</li>
+                                    <li><strong>Pedido de demissão:</strong> empregado deve cumprir aviso prévio. Perde multa do FGTS e seguro-desemprego;</li>
+                                    <li><strong>Rescisão indireta:</strong> falta grave do empregador. Empregado recebe as mesmas verbas da dispensa sem justa causa.</li>
+                                </ul>
+                                <div class="dica">
+                                    📌 <strong>Distrato (art. 484-A CLT):</strong> acordo mútuo. Empregado recebe 50% do aviso prévio e 20% de multa do FGTS, sem seguro-desemprego.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-2 border rounded">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#t4">
+                                Princípios do Direito do Trabalho
+                            </button>
+                        </h2>
+                        <div id="t4" class="accordion-collapse collapse" data-bs-parent="#accTrabalho">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><strong>Proteção</strong> (princípio-mãe), subdividido em:
+                                        <ul>
+                                            <li><em>In dubio pro operario</em> — na dúvida, interpreta-se em favor do trabalhador;</li>
+                                            <li><em>Norma mais favorável</em> — aplica-se a norma mais benéfica ao empregado;</li>
+                                            <li><em>Condição mais benéfica</em> — direitos adquiridos não podem ser suprimidos.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Irrenunciabilidade:</strong> o empregado não pode renunciar a direitos trabalhistas em prejuízo próprio;</li>
+                                    <li><strong>Continuidade da relação de emprego:</strong> presume-se contrato por prazo indeterminado;</li>
+                                    <li><strong>Primazia da realidade:</strong> os fatos reais prevalecem sobre documentos formais;</li>
+                                    <li><strong>Inalterabilidade contratual lesiva (art. 468 CLT):</strong> vedada alteração do contrato em prejuízo do empregado.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-navy text-light pt-5 pb-3 mt-auto">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h4 class="logo-font text-gold">LexStudy</h4>
+                    <p class="text-white-50">Apoiando o futuro da advocacia e magistratura brasileira.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 text-decoration-none me-3">Termos de Uso</a>
+                    <a href="#" class="text-white-50 text-decoration-none me-3">Privacidade</a>
+                    <a href="#" class="text-white-50 text-decoration-none">Contato</a>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center text-white-50 small mt-3">
+                <p class="mb-0">&copy; 2026 LexStudy. Site desenvolvido por Grupo 6.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

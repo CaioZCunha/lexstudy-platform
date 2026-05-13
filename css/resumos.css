@@ -1,0 +1,64 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo-font {
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-navy {
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%) !important;
+}
+
+.text-navy {
+    color: #1a2a3a !important;
+}
+
+.text-gold {
+    color: #c9a84c !important;
+}
+
+.btn-navy {
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%);
+    color: #fff;
+    border: none;
+}
+
+.btn-navy:hover {
+    background: linear-gradient(135deg, #0d1620 0%, #1a2a3a 100%);
+    color: #fff;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%);
+}
+
+.accordion-button {
+    font-weight: 600;
+    color: #1a2a3a;
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%);
+    color: #fff;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(1);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.dica {
+    background-color: #f5e9c9;
+    border-left: 4px solid #c9a84c;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    color: #5a430a;
+    margin-top: 1rem;
+}

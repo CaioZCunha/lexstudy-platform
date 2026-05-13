@@ -1,0 +1,27 @@
+{
+  "name": "lexstudy-platform",
+  "version": "1.0.0",
+  "description": "Plataforma web de apoio para estudantes de Direito com resumos, quiz e flashcards. Projeto acadêmico com CI/CD, testes E2E (Cypress) e análise de código com Sonar.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . -p 3000",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioZCunha/lexstudy-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CaioZCunha/lexstudy-platform/issues"
+  },
+  "homepage": "https://github.com/CaioZCunha/lexstudy-platform#readme",
+  "devDependencies": {
+    "cypress": "^15.14.2",
+    "http-server": "^14.1.1"
+  }
+}
