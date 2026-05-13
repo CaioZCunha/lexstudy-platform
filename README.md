@@ -1,4 +1,3 @@
-````markdown
 # 📚 LexStudy Platform
 
 Plataforma web desenvolvida para auxiliar estudantes de Direito nos estudos, oferecendo acesso a resumos, quizzes e flashcards de forma simples, organizada e interativa.
