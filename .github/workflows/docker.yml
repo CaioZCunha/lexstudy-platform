@@ -1,12 +1,15 @@
 name: CD - DockerHub + Azure
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - main
 
 jobs:
-  docker:
+  deploy:
+    name: Build, Push and Deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -26,3 +29,10 @@ jobs:
       - name: Enviar imagem para DockerHub
         run: |
           docker push caiozcunha/lexstudy-platform:latest
+
+      - name: Deploy no Azure Web App
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: lexstudy-platform
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          images: caiozcunha/lexstudy-platform:latest
