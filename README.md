@@ -2,18 +2,24 @@
 
 Plataforma web desenvolvida para auxiliar estudantes de Direito nos estudos, oferecendo acesso a resumos, quizzes e flashcards de forma simples, organizada e interativa.
 
-Projeto acadêmico da disciplina de **Programação Frontend e DevOps**, com foco em desenvolvimento frontend, versionamento, integração contínua e boas práticas de DevOps.
+Projeto acadêmico da disciplina de **Programação Frontend e DevOps**, com foco em desenvolvimento frontend, versionamento, integração contínua e entrega contínua (CI/CD).
+
+---
+
+# 🌐 Site Online
+
+🔗 https://lexstudy-platform.azurewebsites.net/
 
 ---
 
 # 🚀 Funcionalidades
 
-- 📖 Resumos de matérias
+- 📖 Resumos organizados por matéria
 - 🧠 Quiz interativo
 - 🗂️ Flashcards para revisão
-- 📚 Organização por disciplinas
+- 📚 Organização de conteúdos jurídicos
 - 💻 Interface responsiva
-- 🔍 Navegação simples e intuitiva
+- 🔍 Navegação intuitiva
 
 ---
 
@@ -30,17 +36,28 @@ Projeto acadêmico da disciplina de **Programação Frontend e DevOps**, com foc
 - GitHub Actions
 - Cypress (Testes E2E)
 - SonarQube / SonarCloud
+- Azure Web App
+- Docker
 
 ---
 
 # ⚙️ CI/CD
 
-O projeto utiliza GitHub Actions para automação de integração contínua (CI), executando:
+O projeto utiliza GitHub Actions para automação de integração contínua e entrega contínua.
 
-- Instalação automática das dependências
+## Pipeline de CI
+Executa automaticamente:
+- Instalação das dependências
 - Inicialização do projeto
-- Execução de testes E2E com Cypress
-- Análise de qualidade de código com Sonar
+- Testes automatizados E2E com Cypress
+- Verificação de funcionamento do sistema
+
+## Pipeline de CD
+Executa automaticamente:
+- Build da aplicação
+- Criação da imagem Docker
+- Publicação da imagem no Docker Hub
+- Deploy automático no Azure Web App
 
 ---
 
@@ -50,28 +67,40 @@ Os testes End-to-End foram desenvolvidos utilizando Cypress para validar:
 
 - Carregamento da página inicial
 - Navegação entre páginas
-- Funcionamento de componentes interativos
-- Fluxo básico do sistema
+- Funcionamento dos componentes principais
+- Fluxo básico da plataforma
+
+---
+
+# 📊 Qualidade de Código
+
+O projeto utiliza SonarQube/SonarCloud para análise contínua da qualidade do código, verificando:
+
+- Bugs
+- Vulnerabilidades
+- Code Smells
+- Manutenibilidade
+- Segurança
 
 ---
 
 # 🌿 Estratégia de Branches
 
-O projeto utiliza organização por branches:
+Organização do fluxo Git:
 
-- `main` → versão estável
+- `main` → versão estável/produção
 - `dev` → integração do desenvolvimento
-- `feature/*` → funcionalidades individuais
+- `feature/*` → desenvolvimento de funcionalidades
 
 ---
 
 # 👥 Equipe
 
-Projeto desenvolvido em grupo para a disciplina de Programação Frontend e DevOps.
+Projeto desenvolvido para a disciplina de Programação Frontend e DevOps.
 
 - Caio Zanfollim Cunha
 - João
-- (Adicionar demais integrantes)
+- (Adicionar integrantes restantes)
 
 ---
 
@@ -119,9 +148,19 @@ npm run cypress:run
 
 ---
 
-# 🔗 Deploy
+# 🐳 Docker
 
-> Em desenvolvimento
+O projeto utiliza Docker para padronização do ambiente e deploy da aplicação.
+
+---
+
+# ☁️ Deploy
+
+Deploy automatizado realizado utilizando:
+
+* Docker Hub
+* Azure Web App
+* GitHub Actions
 
 ---
 
