@@ -7,11 +7,11 @@ body {
 }
 
 .bg-navy {
-    background-color: #1a2744 !important;
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%) !important;
 }
 
 .text-navy {
-    color: #1a2744 !important;
+    color: #1a2a3a !important;
 }
 
 .text-gold {
@@ -19,27 +19,28 @@ body {
 }
 
 .btn-navy {
-    background-color: #1a2744;
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%);
     color: #fff;
     border: none;
 }
 
 .btn-navy:hover {
-    background-color: #243560;
+    background: linear-gradient(135deg, #0d1620 0%, #1a2a3a 100%);
     color: #fff;
 }
 
 .hero-section {
-    background-color: #1a2744;
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%);
 }
 
 .accordion-button {
     font-weight: 600;
-    color: #1a2744;
+    color: #1a2a3a;
+    background-color: #fff;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #1a2744;
+    background: linear-gradient(135deg, #1a2a3a 0%, #2a415a 100%);
     color: #fff;
     box-shadow: none;
 }

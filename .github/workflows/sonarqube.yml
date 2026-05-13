@@ -6,6 +6,7 @@ on:
       - main
       - dev
       - feature/devops
+
   pull_request:
     branches:
       - main
@@ -14,14 +15,15 @@ on:
 jobs:
   sonarqube:
     name: SonarQube Analysis
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Baixar código
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: SonarQube Scan
+      - name: Analisar código com SonarQube
         uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
