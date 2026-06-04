@@ -1,6 +1,6 @@
 describe("LexStudy - Home", () => {
   beforeEach(() => {
-    cy.visit("http://127.0.0.1:3000/");
+    cy.visit("http://127.0.0.1:3000/index.html");
   });
 
   it("deve carregar a página inicial", () => {
